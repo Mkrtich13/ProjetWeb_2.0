@@ -156,6 +156,7 @@ if(this.id == "goodRep"){
     clearTimeout(intervalId);
     document.getElementById("bip").innerHTML = "GAME OVER!";
     document.getElementById("main").style.display = "none";
+    loadNextMiniGame();
   }
 
 }
